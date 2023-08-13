@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url('br.jpg');
+    background-size:inherit;
+    background-attachment:scroll;
+    background-repeat:space;
+    background-position:center;
+
+   /* background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;*/
+}
+ul{
+   
+    background-color:darkgoldenrod;
+    color:black;
+    list-style:none;
+    width:99vw;
+    height:13vh;
+    
+}
+
+    ul li {
+        display: inline;
+        color: black;
+        margin: 900px 44px;
+        justify-content: center;
+        
+        font-size:3vw;
+        
+    }
+
+header {
+    display: inline;
+    position: sticky;
+    
+}
+    a{
+        color:aliceblue;
+    }
+main {
+    color: darkgoldenrod;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.m {
+    color: darkgoldenrod;
+    text-align: center;
+    /*background-image: url('br.jpg');*/
+}
+
+body {
+     background-color:black;
+}
+hr {
+    color: darkgoldenrod;
+}
+footer{
+    background-color:darkgoldenrod;
+    color:black;
+    height:40vh;
+    height:20vh;
+}
+.paragraph{
+  /*  background-color:black;*/
+    color:darkgoldenrod;
+    width:160vh;
+    height:340px;
+    font-size:2vw;
+}
+h1{
+    text-align:center;
+}
+ 
+ .para1{
+    
+     font-size:2vw;
+ }
+.about1 {
+    color:sandybrown;
+    font-size:1vw;
+    border:2px solid darkgoldenrod;
+}
+.about2 {
+    font-size: 1.5vw;
+    color:  #F2E8C9;
+    border: 5px solid darkgoldenrod;
+    animation: slideIn 1.5s ease-in-out forwards;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+img {
+    width: 80px;
+    height: 80px;
+    transition-property: width height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+    img:hover {
+        width: 180px;
+        height:180px;
+    }
+@keyframes about2 {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/*h1{
+    font-size:5vw;
+    
+}*/
+.insta{
+    justify-content:center;
+    padding:12px;
+    width:1vw;
+    height:1vh;
+}
+.phone{
+    float:left;
+}
+.slide-in {
+    font-size:5vw;
+    animation: slideIn 1.5s ease-out forwards;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.last{
+    color:palegreen;
+    font-size:0.8vw;
+}
+/*About Page:
+
+Amongst the symphony of tick-tocks and chronometric melodies, the story of Brandsito Watches reverberates like a timeless ballad...
+
+1. The Odyssey Begins: Embark on a voyage through the annals of time, tracing the origins of Brandsito Watches. Our journey started with a whisper of passion, destined to resonate across generations.
+
+2. Whispers of the Founder: A pen and a dream were the companions of the founder on this odyssey. The ink spilled stories of ambition, each word a testament to the fervor that birthed Brandsito Watches.
+
+3. Pledges in Metal and Glass: Rooted in values of precision, elegance, and integrity, Brandsito Watches embarked on a mission to redefine horological artistry. Our watches are more than gears; they are embodiments of ideals.
+
+4. Architecture of Aesthetics: In the realm of design, Brandsito Watches unveils a philosophy woven into every curve and hue. Each watch tells a story, reflecting our commitment to aesthetics and innovation.
+
+5. The Collective Pulse: Beyond the watches lies a team bound by a common heartbeat. Meet the artisans, dreamers, and creators who breathe life into each timepiece.
+
+6. The Alchemy of Craftsmanship: Discover the secret alchemy that transforms raw materials into coveted timekeeping treasures. Our production process is a symphony of artistry and precision.
+
+7. Time for Change: As guardians of time, we believe in giving back to the tapestry of life. Explore our engagement with communities, where every tick marks a step towards positive change.
+
+8. Echoes of Appreciation: From the whispers of reviewers to the applause of critics, the mantle of recognition adorns Brandsito Watches. Awards and acknowledgments stand as beacons guiding our journey.
+
+In the realm of Brandsito Watches, the homepage and about page intertwine like the intricate gears of a watch movement, each contributing to a narrative that transcends time and touches the heart.*/
